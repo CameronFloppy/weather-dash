@@ -1,0 +1,9 @@
+.jumbotron {
+    border: 2px solid black;
+    height: 50%;
+}
+header h1 {
+    text-align: center;
+    background-image: linear-gradient(.25turn, blue, purple);
+    color: white;
+}
