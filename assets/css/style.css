@@ -7,3 +7,15 @@ header h1 {
     background-image: linear-gradient(.25turn, blue, purple);
     color: white;
 }
+
+.success {
+    background-color: green;
+}
+
+.warning {
+    background-color: yellow;
+}
+
+.danger {
+    background-color: red;
+}
