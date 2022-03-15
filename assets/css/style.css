@@ -10,6 +10,11 @@ header h1 {
 
 .success {
     background-color: green;
+    padding: 2px;
+    border: 1px solid green;
+    border-radius: 1px;
+
+    
 }
 
 .warning {
@@ -18,4 +23,20 @@ header h1 {
 
 .danger {
     background-color: red;
+    padding: 2px;
+    border-radius: 1px;
+}
+
+.weather-icon {
+    height: 50px;
+    width: 50px;
+}
+
+.lower-cards {
+    background-color: #2f3359;
+    color: white;
+}
+
+.lower-cards p {
+    font-size: 20px;
 }
