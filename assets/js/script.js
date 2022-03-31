@@ -8,7 +8,7 @@ let jumboEl = document.querySelector("#jumbotron");
 function getLonLat(event) {
     event.preventDefault();
     let city = cityInputEl.value.trim();
-    let apiUrl = "http://api.openweathermap.org/geo/1.0/direct?q="+ city + "&limit=5&appid=3235f6ca43f152b21beee3053909231f"
+    let apiUrl = "https://api.openweathermap.org/geo/1.0/direct?q="+ city + "&limit=5&appid=3235f6ca43f152b21beee3053909231f"
 
     console.log(apiUrl);
 
@@ -43,7 +43,7 @@ function getCurrentWeather(data) {
     cityName.textContent = cityInputEl.value.trim() + " " + (date.getMonth() + 1) + "/" + date.getDate() + "/" + date.getFullYear();
     let currentIconEl = document.createElement("img");
     let icon = data.current.weather[0].icon
-    currentIconEl.setAttribute("src", "http://openweathermap.org/img/wn/"+ icon + "@2x.png");
+    currentIconEl.setAttribute("src", "https://openweathermap.org/img/wn/"+ icon + "@2x.png");
     currentIconEl.setAttribute("class", "weather-icon");
     cityName.appendChild(currentIconEl);
 
